@@ -1,0 +1,19 @@
+uuid: feac90fd-d8c1-4a3e-b6a9-c2b141ff49ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.pokemon_text
+id: paragraph.pokemon_text.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: pokemon_text
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

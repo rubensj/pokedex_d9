@@ -1,0 +1,55 @@
+uuid: b8e51125-044b-437f-b2cd-ad5550f23d30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pokemon.field_content
+    - field.field.node.pokemon.field_images
+    - field.field.node.pokemon.field_number
+    - field.field.node.pokemon.field_type
+    - node.type.pokemon
+  module:
+    - entity_reference_revisions
+    - user
+id: node.pokemon.default
+targetEntityType: node
+bundle: pokemon
+mode: default
+content:
+  field_content:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_images:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_number:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  links: true

@@ -1,0 +1,10 @@
+uuid: 7002afe2-b710-499a-bf6a-769255c18f6d
+langcode: en
+status: true
+dependencies: {  }
+id: pokemon_text
+label: 'Pokémon text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

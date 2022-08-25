@@ -1,0 +1,8 @@
+uuid: 4eb78dfb-7eb8-4eb8-991b-acc88f10d398
+langcode: en
+status: true
+dependencies: {  }
+name: 'Pokémon Types'
+vid: pokemon_types
+description: 'A list with the Pokémon types.'
+weight: 0

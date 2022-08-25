@@ -1,0 +1,18 @@
+uuid: 9fb9f63d-1ed2-4395-becb-0f43a2558c47
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Pokémon
+type: pokemon
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

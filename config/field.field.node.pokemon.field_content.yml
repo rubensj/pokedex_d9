@@ -1,0 +1,31 @@
+uuid: 64c67389-d359-4dfa-98fd-18baf2964153
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.pokemon
+    - paragraphs.paragraphs_type.pokemon_text
+  module:
+    - entity_reference_revisions
+id: node.pokemon.field_content
+field_name: field_content
+entity_type: node
+bundle: pokemon
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      pokemon_text: pokemon_text
+    negate: 0
+    target_bundles_drag_drop:
+      pokemon_text:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

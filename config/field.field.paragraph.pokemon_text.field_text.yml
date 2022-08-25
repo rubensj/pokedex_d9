@@ -1,0 +1,19 @@
+uuid: 76fec93c-7c64-43e8-97a6-6719cebce2c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.pokemon_text
+id: paragraph.pokemon_text.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: pokemon_text
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
