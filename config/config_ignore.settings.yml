@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk
+ignored_config_entities:
+  - 'page_manager.page.*'
+  - 'page_manager.page_variant.*'
+  - 'xmlsitemap.xmlsitemap.*'
+  - 'lifescan_gtm.global_data_layer_trigger.*'
+  - 'cohesion_base_styles.*'
+  - 'cohesion_custom_styles.*'
+  - 'cohesion_elements.*'
+  - 'cohesion_style_guide.cohesion_style_guide.*'
+  - 'cohesion_sync.cohesion_sync_package.*'
+  - 'cohesion_templates.*'
+  - 'cohesion_website_settings.*'
